@@ -184,13 +184,19 @@ ls Sample_data.csv
 The notebook generates these artifacts:
 
 **Figures:**
-- `f_ratio_analysis.png` - Feature selection results
-- `pca_plot.png` - 2D fuel family separation
-- `kmeans_elbow_plot.png` - Optimal cluster number
+- `f_ratio_analysis.png` - Feature selection results (top 20 compounds by F-ratio)
+- `pca_variance_explained.png` - Scree plot showing variance by principal component
+- `pca_pc1_vs_pc2.png` - 2D fuel family separation (main visualization)
+- `pca_pc1_vs_pc4.png` - Alternative PC combination (paper method)
+- `pca_biplot.png` - Samples and variable loadings combined
+- `kmeans_elbow_plot.png` - Optimal cluster number determination
 - `kmeans_clustering.png` - Unsupervised clustering results
-- `all_models_comparison.png` - Decision boundaries (LDA/RF/TabNet side-by-side)
-- `tabnet_feature_importance.png` - Attention weights
-- `lda_decision_boundary.png` - LDA classification visualization
+- `lda_decision_boundary.png` - LDA classification with decision boundary
+- `lda_probability_distributions.png` - Prediction probability distributions
+- `lda_vs_random_forest.png` - LDA and Random Forest decision boundaries comparison
+- `probability_comparison.png` - LDA vs Random Forest probability heatmaps
+- `tabnet_feature_importance.png` - TabNet attention weights (PC1 vs PC2)
+- `tabnet_training_curves.png` - TabNet training loss and validation accuracy
 
 **Data files:**
 - `lda_classification_results.csv` - Per-sample predictions and probabilities
