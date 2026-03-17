@@ -197,6 +197,7 @@ The notebook generates these artifacts:
 - `probability_comparison.png` - LDA vs Random Forest probability heatmaps
 - `tabnet_feature_importance.png` - TabNet attention weights (PC1 vs PC2)
 - `tabnet_training_curves.png` - TabNet training loss and validation accuracy
+- `all_models_comparison.png` - Comparison of all models
 
 **Data files:**
 - `lda_classification_results.csv` - Per-sample predictions and probabilities
