@@ -66,14 +66,14 @@ This analysis is structured as a "climbing route" with progressive exercises:
 
 | Exercise | Task | Status |
 |----------|------|--------|
-| **Exercise 0** | Load data, handle encoding errors | ✅ Complete |
-| **Exercise 1** | Create fuel family groupings | ✅ Complete |
-| **Exercise 2** | Filter by detection rate (≥30%) | ✅ Complete |
-| **Exercise 3** | ANOVA feature selection (top 5 compounds) | ✅ Complete |
-| **Exercise 4** | PCA visualization (2D reduction) | ✅ Complete |
-| **Exercise 5** | Train LDA, Random Forest, TabNet | ✅ Complete |
-| **Exercise 6** | Design experiment where TabNet wins | ⚪ Optional |
-| **Exercise 7** | Reflection and interpretation | ✅ Complete |
+| **Exercise 0** | Load data, handle encoding errors | Complete |
+| **Exercise 1** | Create fuel family groupings | Complete |
+| **Exercise 2** | Filter by detection rate (≥30%) | Complete |
+| **Exercise 3** | ANOVA feature selection (top 5 compounds) | Complete |
+| **Exercise 4** | PCA visualization (2D reduction) | Complete |
+| **Exercise 5** | Train LDA, Random Forest, TabNet | Complete |
+| **Exercise 6** | Design experiment where TabNet wins | Optional |
+| **Exercise 7** | Reflection and interpretation | Complete |
 
 **Educational Goal:** Demonstrate that the simplest model solving your problem is the right model—not the newest or most complex.
 
@@ -112,7 +112,7 @@ This analysis is structured as a "climbing route" with progressive exercises:
 
 **TabNet early stopping:** Training stopped at **epoch 0-1** with validation accuracy already at 100%. This indicates the classification problem is trivially easy—even random initialization achieved perfect performance.
 
-## 💡 Interpretation, Limitations, and Next Steps
+## Interpretation, Limitations, and Next Steps
 
 ### Why Did LDA Tie TabNet?
 
@@ -149,7 +149,7 @@ TabNet would win when:
 5. **Ensemble approach:** Combine predictions from family-specific models
 6. **Time-series analysis:** Track how emissions change throughout burn progression
 
-## 🔁 Reproducibility Instructions
+## Reproducibility Instructions
 
 ### Prerequisites
 
